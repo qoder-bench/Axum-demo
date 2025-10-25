@@ -1,0 +1,10 @@
+### welcome
+GET http://localhost:3000/
+
+### create user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "johndoe"
+}
